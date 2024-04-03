@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+    <!-- -------------Contact Us--------- -->
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7346395.513242673!2d77.49075173125!3d25.964524892390074!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1703581297832!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="conteact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Meerut,INDIA</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-image"></i>
+                <span>
+                    <h5>+91 7217505212</h5>
+                    <p>Monday to saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>hamzanabeel085@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+            
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your subject" required>
+                <textarea rows="10" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!------------- footer -------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit doloremque quisquam, ex quaerat eum illo esse assumenda nulla quia! <br>Temporibus rerum nesciunt, quidem tempore fugiat dolorum praesentium alias ab in!
+
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        
+
+    </div>
+
+    <p>Made by Hamza Nabeel</p>
+
+</section>
+
+
+                 <!-- Javascript in the code -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+    
+</body>
+</html>
